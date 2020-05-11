@@ -54,7 +54,7 @@ module.exports =
         css:
             regex:
                 commentaire: /^[^\S\n]*\/\/ ! (.+)/gmi
-                commentaire_multi: /^[^\S\n]*\/\* ! (.+)\*\//gmi
+                commentaire_multi: /^[^\S\n]*\/\* ! (.+)\*\//gmi 
                 class: /^"([#|\.]*.+)"/gmi
             scss:
                 regex:
